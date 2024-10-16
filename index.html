@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exis Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Exis Bank</h1>
+        <nav id="nav">
+            <div><a href="#">Home</a></div>
+            <div><a href="#" target="_blank">Banking</a></div>
+            <div><a href="#">Products</a></div>
+            <div><a href="#">Support</a></div>
+            <div><a href="#">About</a></div>
+        </nav>
+    </header>
+    <main>
+    <h2>Deposit & Withdraw Money</h2>
+    <form action="">
+    <div class="hidden">
+        <input type="text" id="name" placeholder="Customer's Name" value="" required>
+    </div>
+    <div id="box">        
+   <!-- <input class="radio" type="radio" name="input"  value="deposit"> -->
+   <p id="deposit">Deposit</p>
+   <!-- <input class="radio" type="radio" name="input"  value=""> -->
+   <p id="withdraw">Withdraw</p>
+   <!-- <input class="radio" type="radio" name="input"  value="" required> -->
+   <p id="checkBalance">Check Balance</p>
+</div>
+    <div class="hidden">
+        <input type="number" id="amount" placeholder="Amount" value="" min="100"step="100" required>
+    </div>
+    <button type="submit">Submit</button>
+    <div id="ans"></div>
+</form>  
+    </Main>
+
+
+    <script src="sc.js"></script>
+</body>
+</html>
